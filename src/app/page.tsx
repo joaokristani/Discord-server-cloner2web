@@ -1,4 +1,5 @@
 import './style.css';
+import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
   return (
     <div>
@@ -60,6 +61,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
