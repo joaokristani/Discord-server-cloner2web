@@ -1,5 +1,4 @@
 import './style.css';
-import Link from 'next/link';
 export default function Home() {
   return (
     <div>
@@ -35,11 +34,10 @@ export default function Home() {
               </details>
             </li>
           </ul>
-
         </div>
-
       </div>
       <div className="flex flex-col items-center mt-20">
+        
         <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#5264e2] to-[#00abbb]">
           <span>Discord Server Cloner 2</span>
         </h1>
@@ -56,8 +54,9 @@ export default function Home() {
               <div className="modal-action">
                 <a href="#" className="btn btn-neutral">Close</a>
               </div>
+              
             </div>
-
+            
           </div>
         </div>
       </div>
