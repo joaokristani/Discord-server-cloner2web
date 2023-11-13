@@ -12,21 +12,21 @@
     "@vercel/analytics": "^1.1.1",
     "eslint-import-resolver-typescript": "^3.6.1",
     "next": "13.5.5",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-typist": "^2.0.5",
-    "styled-components": "^6.1.0"
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10",
-    "daisyui": "^3.9.3",
-    "eslint": "^8",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^3.9.4",
+    "eslint": "^8.53.0",
     "eslint-config-next": "13.5.5",
-    "postcss": "^8",
-    "tailwindcss": "^3",
-    "typescript": "^5"
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
   }
 }
