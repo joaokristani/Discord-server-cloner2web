@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Discord Server Cloner 2',
-  description: 'By joaokristani & Infinite Community',
+  description: 'By joaokristani & Infinite Community - https://discord.gg/infinite-community-1014921352500756500',
 }
 
 export default function RootLayout({

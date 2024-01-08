@@ -1,5 +1,6 @@
 import './style.css';
 import { Analytics } from '@vercel/analytics/react';
+
 export default function Home() {
   return (
     <div>
@@ -39,19 +40,17 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center mt-20">
         
-        <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#5264e2] to-[#00abbb]">
-          <span>Discord Server Cloner 2</span>
-        </h1>
+      <h1 className="text-center md:ms-5 text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#5264e2] to-[#00abbb]"><span>Discord Server Cloner 2</span></h1>
         <h3 className="text-lg text-gray-400">By Infinite Community</h3>
         <div className="flex">
-          <a className="btn btn-neutral mt-5" href="https://discord.gg/infinite-community-1014921352500756500">Discord</a>
-          <a href="#cloner" className="btn btn-neutral mt-5 ml-3">Cloner</a>
+          <a className="btn btn-neutral mt-2" href="https://discord.gg/infinite-community-1014921352500756500">Discord</a>
+          <a href="#cloner" className="btn btn-neutral mt-2 ml-5">Cloner</a>
           <div className="modal" id="cloner">
             <div className="modal-box">
               <h3 className="font-bold text-lg">Version</h3>
-              <a className="link link-accent mt-1" href='https://github.com/joaokristani/Discord-Server-Cloner-2x'>Discord Server Cloner V2</a>
+              <a className="link link-hover text-sky-400 mt-2 ml-2" href='https://github.com/joaokristani/Discord-Server-Cloner-2x'>Discord Server Cloner V2 (New)</a>
               <p></p>
-              <a className="link link-error mt-2" href='https://github.com/joaokristani/discord-server-cloner'>Discord Server Cloner V1</a>
+              <a className="link link-hover text-red-400 ml-2" href='https://github.com/joaokristani/discord-server-cloner'>Discord Server Cloner V1 (Legacy)</a>
               <div className="modal-action">
                 <a href="#" className="btn btn-neutral">Close</a>
               </div>
