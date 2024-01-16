@@ -1,5 +1,6 @@
 import './style.css';
 import { Analytics } from '@vercel/analytics/react';
+import 'tailwindcss/tailwind.css';
 export default function Home() {
   return (
     <div>
