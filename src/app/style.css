@@ -17,7 +17,31 @@
     animation: tailAnimation 1s infinite;
   }
   
-  .shadow2 {
-    box-shadow: 0 0 50px #f70048; 
+  .button2 {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    color: #0f0f0f;
+    transition: border-color 0.25s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button2 {
+    cursor: pointer;
+  }
+  
+  .button2:hover {
+    border-color: #62c7e6;
+  }
+  .button2:active {
+    border-color: #62c7e6;
+    background-color: #000;
+  }
+  
+  .button2 {
+    outline: none;
   }
   
